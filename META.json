@@ -1,0 +1,48 @@
+{
+   "abstract" : "This module is a subclass of Digest using the Crypt::PBKDF2 algorithm.",
+   "author" : [
+      "Amiri Barksdale <amiri@arisdottle.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.110360",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Digest-PBKDF2",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Crypt::PBKDF2" : 0,
+            "Digest::base" : 0,
+            "parent" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Devel::Dwarn" : 0,
+            "Scalar::Util" : 0,
+            "Test::Exception" : 0,
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/amiri/Digest-PBKDF2.git",
+         "web" : "http://github.com/amiri/Digest-PBKDF2"
+      }
+   },
+   "version" : "0.001"
+}
+
