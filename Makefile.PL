@@ -10,9 +10,8 @@ use ExtUtils::MakeMaker 6.31;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'This module is a subclass of Digest using the Crypt::PBKDF2 algorithm.',
-  'AUTHOR' => 'Amiri Barksdale <amiri@arisdottle.net>',
+  'AUTHOR' => 'Amiri Barksdale <abarksdale@campusexplorer.com>',
   'BUILD_REQUIRES' => {
-    'Devel::Dwarn' => '0',
     'Scalar::Util' => '0',
     'Test::Exception' => '0',
     'Test::More' => '0'
@@ -25,11 +24,11 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Digest::PBKDF2',
   'PREREQ_PM' => {
-    'Crypt::PBKDF2' => '0',
+    'Crypt::PBKDF2' => '0.101170',
     'Digest::base' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }

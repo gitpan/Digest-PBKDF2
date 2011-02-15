@@ -1,10 +1,10 @@
 {
    "abstract" : "This module is a subclass of Digest using the Crypt::PBKDF2 algorithm.",
    "author" : [
-      "Amiri Barksdale <amiri@arisdottle.net>"
+      "Amiri Barksdale <abarksdale@campusexplorer.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.110360",
+   "generated_by" : "Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.110240",
    "license" : [
       "perl_5"
    ],
@@ -21,14 +21,13 @@
       },
       "runtime" : {
          "requires" : {
-            "Crypt::PBKDF2" : 0,
+            "Crypt::PBKDF2" : "0.101170",
             "Digest::base" : 0,
             "parent" : 0
          }
       },
       "test" : {
          "requires" : {
-            "Devel::Dwarn" : 0,
             "Scalar::Util" : 0,
             "Test::Exception" : 0,
             "Test::More" : 0
@@ -43,6 +42,6 @@
          "web" : "http://github.com/amiri/Digest-PBKDF2"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 
