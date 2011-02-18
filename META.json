@@ -21,7 +21,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Crypt::PBKDF2" : "0.101170",
+            "Crypt::PBKDF2" : 0,
             "Digest::base" : 0,
             "parent" : 0
          }
@@ -42,6 +42,6 @@
          "web" : "http://github.com/amiri/Digest-PBKDF2"
       }
    },
-   "version" : "0.002"
+   "version" : "0.003"
 }
 

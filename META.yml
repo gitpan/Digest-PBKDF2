@@ -16,9 +16,9 @@ meta-spec:
   version: 1.4
 name: Digest-PBKDF2
 requires:
-  Crypt::PBKDF2: 0.101170
+  Crypt::PBKDF2: 0
   Digest::base: 0
   parent: 0
 resources:
   repository: git://github.com/amiri/Digest-PBKDF2.git
-version: 0.002
+version: 0.003
