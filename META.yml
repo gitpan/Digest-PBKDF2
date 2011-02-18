@@ -9,16 +9,16 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.110240'
+generated_by: 'Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.110360'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Digest-PBKDF2
 requires:
-  Crypt::PBKDF2: 0
+  Crypt::PBKDF2: 0.110461
   Digest::base: 0
   parent: 0
 resources:
   repository: git://github.com/amiri/Digest-PBKDF2.git
-version: 0.003
+version: 0.004
