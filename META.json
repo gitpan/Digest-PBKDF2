@@ -4,7 +4,7 @@
       "Amiri Barksdale <abarksdale@campusexplorer.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.110360",
+   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -42,6 +42,6 @@
          "web" : "http://github.com/amiri/Digest-PBKDF2"
       }
    },
-   "version" : "0.005"
+   "version" : "0.006"
 }
 
