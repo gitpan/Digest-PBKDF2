@@ -5,7 +5,9 @@ use warnings;
 use parent "Digest::base";
 use Crypt::PBKDF2 0.110461;
 
-our $VERSION = '0.005';
+BEGIN {
+	our $VERSION = '0.007'; # VERSION
+}
 
 #ABSTRACT: This module is a subclass of Digest using the Crypt::PBKDF2 algorithm.
 
