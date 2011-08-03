@@ -24,11 +24,11 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Digest::PBKDF2',
   'PREREQ_PM' => {
-    'Crypt::PBKDF2' => '0.110461',
+    'Crypt::PBKDF2' => '0.112020',
     'Digest::base' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.007',
+  'VERSION' => '0.008',
   'test' => {
     'TESTS' => 't/*.t'
   }
