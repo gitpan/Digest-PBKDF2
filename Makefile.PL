@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     'Digest::base' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.008',
+  'VERSION' => '0.009',
   'test' => {
     'TESTS' => 't/*.t'
   }

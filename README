@@ -6,7 +6,8 @@ NOTICE
     enough to do post-salts.
 
 SYNOPSIS
-        my $digest = Digest::PBKDF2->new;
+        my $digest = Digest::PBKDF2->new;   # Or...
+        my $digest = Digest::PBKDF2->new(encoding => 'ldap');
         $digest->add('mysalt');             # salt = 'mysalt'
         $digest->add('k3wLP@$$w0rd');       # password = 'k3wLP@$$w0rd'
 
@@ -18,7 +19,9 @@ SYNOPSIS
     That's about it.
 
 METHODS
-    new Create a new Digest::PBKDF2 object.
+    new Create a new Digest::PBKDF2 object. This defaults to using the
+        "crypt" encoding available in Crypt::PBKDF2--please see
+        Crypt::PBKDF2 for details.
 
     clone
         Copies the data and state from the original Digest::PBKDF2 object,
