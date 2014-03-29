@@ -4,7 +4,7 @@
       "Amiri Barksdale <abarksdale@campusexplorer.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Dist::Zilla version 5.014, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "perl_5"
    ],
@@ -22,15 +22,18 @@
       "runtime" : {
          "requires" : {
             "Crypt::PBKDF2" : "0.112020",
-            "Digest::base" : 0,
-            "parent" : 0
+            "Digest::base" : "0",
+            "parent" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Scalar::Util" : 0,
-            "Test::Exception" : 0,
-            "Test::More" : 0
+            "Scalar::Util" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0",
+            "lib" : "0"
          }
       }
    },
@@ -42,6 +45,6 @@
          "web" : "http://github.com/amiri/Digest-PBKDF2"
       }
    },
-   "version" : "0.009"
+   "version" : "0.010"
 }
 

@@ -20,8 +20,8 @@ SYNOPSIS
 
 METHODS
     new Create a new Digest::PBKDF2 object. This defaults to using the
-        "crypt" encoding available in Crypt::PBKDF2--please see
-        Crypt::PBKDF2 for details.
+        "ldap" encoding available in Crypt::PBKDF2--please see Crypt::PBKDF2
+        for details.
 
     clone
         Copies the data and state from the original Digest::PBKDF2 object,
@@ -45,7 +45,7 @@ AUTHOR
     Amiri Barksdale, <abarksdale@campusexplorer.com>
 
 COPYRIGHT
-    Copyright (c) 2011 by Campus Explorer, Inc.
+    Copyright (c) 2014 by Campus Explorer, Inc.
 
     <http://www.campusexplorer.com>
 
